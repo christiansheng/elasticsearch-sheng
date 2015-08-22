@@ -1,0 +1,233 @@
+[2015-08-22 01:03:26,117][INFO ][node                     ] [Redeemer] version[1.6.2], pid[18238], build[6220391/2015-07-29T09:24:47Z]
+[2015-08-22 01:03:26,117][INFO ][node                     ] [Redeemer] initializing ...
+[2015-08-22 01:03:26,195][INFO ][plugins                  ] [Redeemer] loaded [analysis-pinyin, analysis-stconvert, analysis-ik, analysis-mmseg], sites [head]
+[2015-08-22 01:03:26,238][INFO ][env                      ] [Redeemer] using [1] data paths, mounts [[/home (/dev/sda5)]], net usable_space [143.4gb], net total_space [183.2gb], types [ext4]
+[2015-08-22 01:03:28,343][INFO ][node                     ] [Redeemer] initialized
+[2015-08-22 01:03:28,344][INFO ][node                     ] [Redeemer] starting ...
+[2015-08-22 01:03:28,518][INFO ][transport                ] [Redeemer] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.106:9300]}
+[2015-08-22 01:03:28,534][INFO ][discovery                ] [Redeemer] elasticsearch/-bjUWBrhSyiRUq0jQMQkCg
+[2015-08-22 01:03:32,316][INFO ][cluster.service          ] [Redeemer] new_master [Redeemer][-bjUWBrhSyiRUq0jQMQkCg][uu][inet[/192.168.1.106:9300]], reason: zen-disco-join (elected_as_master)
+[2015-08-22 01:03:32,341][INFO ][http                     ] [Redeemer] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.106:9200]}
+[2015-08-22 01:03:32,342][INFO ][node                     ] [Redeemer] started
+[2015-08-22 01:03:32,357][INFO ][gateway                  ] [Redeemer] recovered [0] indices into cluster_state
+[2015-08-22 01:04:04,828][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:04:09,431][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:04:09,649][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:04:09,821][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:04:09,995][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:04:10,143][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:04:10,322][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:05:24,687][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:05:58,620][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:06:29,367][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:06:30,919][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:06:31,129][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:06:31,322][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:06:31,481][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:06:31,645][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:06:31,803][DEBUG][action.admin.indices.create] [Redeemer] [LA] failed to create
+org.elasticsearch.indices.InvalidIndexNameException: [LA] Invalid index name [LA], must be lowercase
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:175)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:551)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$200(MetaDataCreateIndexService.java:88)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$2.execute(MetaDataCreateIndexService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:374)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-08-22 01:07:14,074][INFO ][node                     ] [Redeemer] stopping ...
+[2015-08-22 01:07:14,110][INFO ][node                     ] [Redeemer] stopped
+[2015-08-22 01:07:14,110][INFO ][node                     ] [Redeemer] closing ...
+[2015-08-22 01:07:14,124][INFO ][node                     ] [Redeemer] closed
+[2015-08-22 01:07:16,636][INFO ][node                     ] [Vector] version[1.6.2], pid[24139], build[6220391/2015-07-29T09:24:47Z]
+[2015-08-22 01:07:16,637][INFO ][node                     ] [Vector] initializing ...
+[2015-08-22 01:07:16,716][INFO ][plugins                  ] [Vector] loaded [analysis-pinyin, analysis-stconvert, analysis-ik, analysis-mmseg], sites [head]
+[2015-08-22 01:07:16,760][INFO ][env                      ] [Vector] using [1] data paths, mounts [[/home (/dev/sda5)]], net usable_space [143.4gb], net total_space [183.2gb], types [ext4]
+[2015-08-22 01:07:19,003][INFO ][node                     ] [Vector] initialized
+[2015-08-22 01:07:19,004][INFO ][node                     ] [Vector] starting ...
+[2015-08-22 01:07:19,108][INFO ][transport                ] [Vector] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.106:9300]}
+[2015-08-22 01:07:19,140][INFO ][discovery                ] [Vector] elasticsearch/1p40sLfpSHODJVz-zFh1Kg
+[2015-08-22 01:07:22,915][INFO ][cluster.service          ] [Vector] new_master [Vector][1p40sLfpSHODJVz-zFh1Kg][uu][inet[/192.168.1.106:9300]], reason: zen-disco-join (elected_as_master)
+[2015-08-22 01:07:22,952][INFO ][http                     ] [Vector] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.106:9200]}
+[2015-08-22 01:07:22,952][INFO ][node                     ] [Vector] started
+[2015-08-22 01:07:22,958][INFO ][gateway                  ] [Vector] recovered [0] indices into cluster_state
+[2015-08-22 01:07:32,441][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/mydict.dic
+[2015-08-22 01:07:32,441][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/single_word_low_freq.dic
+[2015-08-22 01:07:32,444][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/ext_stopword.dic
+[2015-08-22 01:07:32,483][INFO ][mmseg-analyzer           ] chars loaded time=35ms, line=12638, on file=chars.dic
+[2015-08-22 01:07:32,486][INFO ][mmseg-analyzer           ] words loaded time=1ms, line=4, on file=words-my.dic
+[2015-08-22 01:07:32,784][INFO ][mmseg-analyzer           ] words loaded time=296ms, line=157202, on file=words.dic
+[2015-08-22 01:07:32,784][INFO ][mmseg-analyzer           ] load all dic use time=336ms
+[2015-08-22 01:07:32,785][INFO ][mmseg-analyzer           ] unit loaded time=1ms, line=22, on file=units.dic
+[2015-08-22 01:07:32,873][INFO ][cluster.metadata         ] [Vector] [linkapes] creating index, cause [api], templates [], shards [1]/[1], mappings []
+[2015-08-22 01:08:16,186][INFO ][node                     ] [Vector] stopping ...
+[2015-08-22 01:08:16,231][INFO ][node                     ] [Vector] stopped
+[2015-08-22 01:08:16,231][INFO ][node                     ] [Vector] closing ...
+[2015-08-22 01:08:16,243][INFO ][node                     ] [Vector] closed

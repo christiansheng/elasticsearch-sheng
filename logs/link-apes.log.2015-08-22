@@ -1,0 +1,901 @@
+[2015-08-22 01:09:56,236][INFO ][node                     ] [king kong] version[1.6.2], pid[24270], build[6220391/2015-07-29T09:24:47Z]
+[2015-08-22 01:09:56,237][INFO ][node                     ] [king kong] initializing ...
+[2015-08-22 01:09:56,315][INFO ][plugins                  ] [king kong] loaded [analysis-pinyin, analysis-stconvert, analysis-ik, analysis-mmseg], sites [head]
+[2015-08-22 01:09:56,359][INFO ][env                      ] [king kong] using [1] data paths, mounts [[/home (/dev/sda5)]], net usable_space [143.4gb], net total_space [183.2gb], types [ext4]
+[2015-08-22 01:09:58,470][INFO ][node                     ] [king kong] initialized
+[2015-08-22 01:09:58,470][INFO ][node                     ] [king kong] starting ...
+[2015-08-22 01:09:58,667][INFO ][transport                ] [king kong] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.106:9300]}
+[2015-08-22 01:09:58,685][INFO ][discovery                ] [king kong] link-apes/Do-53w5FRkyAVqYE6Lzwlg
+[2015-08-22 01:10:02,462][INFO ][cluster.service          ] [king kong] new_master [king kong][Do-53w5FRkyAVqYE6Lzwlg][uu][inet[/192.168.1.106:9300]], reason: zen-disco-join (elected_as_master)
+[2015-08-22 01:10:02,488][INFO ][http                     ] [king kong] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.106:9200]}
+[2015-08-22 01:10:02,489][INFO ][node                     ] [king kong] started
+[2015-08-22 01:10:02,505][INFO ][gateway                  ] [king kong] recovered [0] indices into cluster_state
+[2015-08-22 01:10:05,298][INFO ][node                     ] [king kong] stopping ...
+[2015-08-22 01:10:05,329][INFO ][node                     ] [king kong] stopped
+[2015-08-22 01:10:05,329][INFO ][node                     ] [king kong] closing ...
+[2015-08-22 01:10:05,336][INFO ][node                     ] [king kong] closed
+[2015-08-22 14:22:58,430][INFO ][node                     ] [king kong] version[1.6.2], pid[22832], build[6220391/2015-07-29T09:24:47Z]
+[2015-08-22 14:22:58,431][INFO ][node                     ] [king kong] initializing ...
+[2015-08-22 14:22:58,558][INFO ][plugins                  ] [king kong] loaded [analysis-pinyin, analysis-stconvert, analysis-ik, analysis-mmseg], sites [head]
+[2015-08-22 14:22:58,603][INFO ][env                      ] [king kong] using [1] data paths, mounts [[/home (/dev/sda5)]], net usable_space [143.2gb], net total_space [183.2gb], types [ext4]
+[2015-08-22 14:23:01,115][INFO ][node                     ] [king kong] initialized
+[2015-08-22 14:23:01,116][INFO ][node                     ] [king kong] starting ...
+[2015-08-22 14:23:01,282][INFO ][transport                ] [king kong] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.101:9300]}
+[2015-08-22 14:23:01,299][INFO ][discovery                ] [king kong] link-apes/8ci3GkjdQQyXla7DwprKkw
+[2015-08-22 14:23:05,091][INFO ][cluster.service          ] [king kong] new_master [king kong][8ci3GkjdQQyXla7DwprKkw][uu][inet[/192.168.1.101:9300]], reason: zen-disco-join (elected_as_master)
+[2015-08-22 14:23:05,135][INFO ][http                     ] [king kong] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.101:9200]}
+[2015-08-22 14:23:05,135][INFO ][node                     ] [king kong] started
+[2015-08-22 14:23:05,139][INFO ][gateway                  ] [king kong] recovered [0] indices into cluster_state
+[2015-08-22 14:25:44,234][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/mydict.dic
+[2015-08-22 14:25:44,235][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/single_word_low_freq.dic
+[2015-08-22 14:25:44,238][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/ext_stopword.dic
+[2015-08-22 14:25:44,271][INFO ][mmseg-analyzer           ] chars loaded time=30ms, line=12638, on file=chars.dic
+[2015-08-22 14:25:44,273][INFO ][mmseg-analyzer           ] words loaded time=1ms, line=4, on file=words-my.dic
+[2015-08-22 14:25:44,549][INFO ][mmseg-analyzer           ] words loaded time=276ms, line=157202, on file=words.dic
+[2015-08-22 14:25:44,549][INFO ][mmseg-analyzer           ] load all dic use time=308ms
+[2015-08-22 14:25:44,550][INFO ][mmseg-analyzer           ] unit loaded time=1ms, line=22, on file=units.dic
+[2015-08-22 14:25:44,618][INFO ][cluster.metadata         ] [king kong] [linkapes] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2015-08-22 14:25:45,023][INFO ][cluster.metadata         ] [king kong] [linkapes] create_mapping [books]
+[2015-08-22 14:26:27,275][INFO ][cluster.metadata         ] [king kong] [linkapes] deleting index
+[2015-08-22 14:26:27,369][INFO ][cluster.metadata         ] [king kong] [linkapes] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2015-08-22 14:26:27,480][INFO ][cluster.metadata         ] [king kong] [linkapes] create_mapping [books]
+[2015-08-22 14:30:54,122][INFO ][cluster.metadata         ] [king kong] [linkapes] deleting index
+[2015-08-22 14:30:54,197][INFO ][cluster.metadata         ] [king kong] [linkapes] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2015-08-22 14:30:54,306][INFO ][cluster.metadata         ] [king kong] [linkapes] create_mapping [books]
+[2015-08-22 14:31:14,626][DEBUG][action.index             ] [king kong] [linkapes][2], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [index {[linkapes][books][AU9UGp2tnfOlqE7Sk9s8], source[{"brief": "\u672c\u4e66\u5171\u5206\u4e09\u90e8\u5206\uff0c\u5168\u9762\u4ecb\u7ecd\u5982\u4f55\u57fa\u4e8ePython\u5fae\u6846\u67b6Flask\u8fdb\u884cWeb\u5f00\u53d1\u3002\u7b2c\u4e00\u90e8\u5206\u662fFlask\u7b80\u4ecb\uff0c\u4ecb\u7ecd\u4f7f\u7528Flask\u6846\u67b6\u53ca\u6269\u5c55\u5f00\u53d1Web\u7a0b\u5e8f\u7684\u5fc5\u5907\u57fa\u7840\u77e5\u8bc6\u3002\u7b2c\u4e8c\u90e8\u5206\u5219\u7ed9\u51fa\u4e00\u4e2a\u5b9e\u4f8b\uff0c\u771f\u6b63\u5e26\u9886\u5927\u5bb6\u4e00\u6b65\u6b65\u5f00\u53d1\u5b8c\u6574\u7684\u535a\u5ba2\u548c\u793e\u4ea4\u5e94\u7528Flasky\uff0c\u4ece\u800c\u5c06\u524d\u8ff0\u77e5\u8bc6\u878d\u4f1a\u8d2f\u901a\uff0c\u4ed8\u8bf8\u5b9e\u8df5\u3002\u7b2c\u4e09\u90e8\u5206\u4ecb\u7ecd\u4e86\u53d1\u5e03\u5e94\u7528\u4e4b\u524d\u5fc5\u987b\u8003\u8651\u7684\u4e8b\u9879\uff0c\u5982\u5355\u5143\u6d4b\u8bd5\u7b56\u7565\u3001\u6027\u80fd\u5206\u6790\u6280\u672f\u3001Flask\u7a0b\u5e8f\u7684\u90e8\u7f72\u65b9\u5f0f\u7b49\u3002", "name": "Flask Web \u5f00\u53d1", "create_time": "2015-08-22T12:43:09.053000", "language": "CN", "_id": "55d7fddd6277e25b00674915", "press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e", "author": ["Miguel", "\u5b89\u9053"], "keywords": ["flask", "web", "python"]}]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse [_id]
+	at org.elasticsearch.index.mapper.core.AbstractFieldMapper.parse(AbstractFieldMapper.java:411)
+	at org.elasticsearch.index.mapper.internal.IdFieldMapper.parse(IdFieldMapper.java:295)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.serializeValue(ObjectMapper.java:706)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:497)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:544)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:493)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:466)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:201)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$PrimaryPhase.performOnPrimary(TransportShardReplicationOperationAction.java:574)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$PrimaryPhase$1.doRun(TransportShardReplicationOperationAction.java:440)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:36)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.mapper.MapperParsingException: Provided id [AU9UGp2tnfOlqE7Sk9s8] does not match the content one [55d7fddd6277e25b00674915]
+	at org.elasticsearch.index.mapper.internal.IdFieldMapper.parseCreateField(IdFieldMapper.java:310)
+	at org.elasticsearch.index.mapper.core.AbstractFieldMapper.parse(AbstractFieldMapper.java:401)
+	... 13 more
+[2015-08-22 14:31:14,637][INFO ][cluster.metadata         ] [king kong] [linkapes] update_mapping [books] (dynamic)
+[2015-08-22 14:31:47,787][DEBUG][action.index             ] [king kong] [linkapes][2], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [index {[linkapes][books][AU9UGx9KnfOlqE7Sk9s9], source[{"_id": "55d7fddd6277e25b00674915", "create_time": "2015-08-22T12:43:09.053000", "language": "CN", "press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e", "author": ["Miguel", "\u5b89\u9053"], "keywords": ["flask", "web", "python"], "brief": "\u672c\u4e66\u5171\u5206\u4e09\u90e8\u5206\uff0c\u5168\u9762\u4ecb\u7ecd\u5982\u4f55\u57fa\u4e8ePython\u5fae\u6846\u67b6Flask\u8fdb\u884cWeb\u5f00\u53d1\u3002\u7b2c\u4e00\u90e8\u5206\u662fFlask\u7b80\u4ecb\uff0c\u4ecb\u7ecd\u4f7f\u7528Flask\u6846\u67b6\u53ca\u6269\u5c55\u5f00\u53d1Web\u7a0b\u5e8f\u7684\u5fc5\u5907\u57fa\u7840\u77e5\u8bc6\u3002\u7b2c\u4e8c\u90e8\u5206\u5219\u7ed9\u51fa\u4e00\u4e2a\u5b9e\u4f8b\uff0c\u771f\u6b63\u5e26\u9886\u5927\u5bb6\u4e00\u6b65\u6b65\u5f00\u53d1\u5b8c\u6574\u7684\u535a\u5ba2\u548c\u793e\u4ea4\u5e94\u7528Flasky\uff0c\u4ece\u800c\u5c06\u524d\u8ff0\u77e5\u8bc6\u878d\u4f1a\u8d2f\u901a\uff0c\u4ed8\u8bf8\u5b9e\u8df5\u3002\u7b2c\u4e09\u90e8\u5206\u4ecb\u7ecd\u4e86\u53d1\u5e03\u5e94\u7528\u4e4b\u524d\u5fc5\u987b\u8003\u8651\u7684\u4e8b\u9879\uff0c\u5982\u5355\u5143\u6d4b\u8bd5\u7b56\u7565\u3001\u6027\u80fd\u5206\u6790\u6280\u672f\u3001Flask\u7a0b\u5e8f\u7684\u90e8\u7f72\u65b9\u5f0f\u7b49\u3002", "name": "Flask Web \u5f00\u53d1"}]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse [_id]
+	at org.elasticsearch.index.mapper.core.AbstractFieldMapper.parse(AbstractFieldMapper.java:411)
+	at org.elasticsearch.index.mapper.internal.IdFieldMapper.parse(IdFieldMapper.java:295)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.serializeValue(ObjectMapper.java:706)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:497)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:544)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:493)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:466)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:201)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$PrimaryPhase.performOnPrimary(TransportShardReplicationOperationAction.java:574)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$PrimaryPhase$1.doRun(TransportShardReplicationOperationAction.java:440)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:36)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.mapper.MapperParsingException: Provided id [AU9UGx9KnfOlqE7Sk9s9] does not match the content one [55d7fddd6277e25b00674915]
+	at org.elasticsearch.index.mapper.internal.IdFieldMapper.parseCreateField(IdFieldMapper.java:310)
+	at org.elasticsearch.index.mapper.core.AbstractFieldMapper.parse(AbstractFieldMapper.java:401)
+	... 13 more
+[2015-08-22 14:32:56,317][INFO ][cluster.metadata         ] [king kong] [linkapes] update_mapping [books] (dynamic)
+[2015-08-22 17:21:34,530][DEBUG][action.search.type       ] [king kong] [linkapes][1], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@431553ed]
+org.elasticsearch.search.SearchParseException: [linkapes][1]: query[(_all:linux _all:内核 _all:驱动 _all:机械工业 _all:出版社 _all:android)~4],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux", "\u5185\u6838", "\u9a71\u52a8", "\u673a\u68b0\u5de5\u4e1a", "\u51fa\u7248\u793e", "android"], "minimum_match": 4}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:34,532][DEBUG][action.search.type       ] [king kong] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [linkapes][1]: query[(_all:linux _all:内核 _all:驱动 _all:机械工业 _all:出版社 _all:android)~4],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux", "\u5185\u6838", "\u9a71\u52a8", "\u673a\u68b0\u5de5\u4e1a", "\u51fa\u7248\u793e", "android"], "minimum_match": 4}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:34,531][DEBUG][action.search.type       ] [king kong] [linkapes][2], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@431553ed] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][2]: query[(_all:linux _all:内核 _all:驱动 _all:机械工业 _all:出版社 _all:android)~4],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux", "\u5185\u6838", "\u9a71\u52a8", "\u673a\u68b0\u5de5\u4e1a", "\u51fa\u7248\u793e", "android"], "minimum_match": 4}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:34,531][DEBUG][action.search.type       ] [king kong] [linkapes][4], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@431553ed] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][4]: query[(_all:linux _all:内核 _all:驱动 _all:机械工业 _all:出版社 _all:android)~4],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux", "\u5185\u6838", "\u9a71\u52a8", "\u673a\u68b0\u5de5\u4e1a", "\u51fa\u7248\u793e", "android"], "minimum_match": 4}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:34,531][DEBUG][action.search.type       ] [king kong] [linkapes][0], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@431553ed] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][0]: query[(_all:linux _all:内核 _all:驱动 _all:机械工业 _all:出版社 _all:android)~4],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux", "\u5185\u6838", "\u9a71\u52a8", "\u673a\u68b0\u5de5\u4e1a", "\u51fa\u7248\u793e", "android"], "minimum_match": 4}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:34,531][DEBUG][action.search.type       ] [king kong] [linkapes][3], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@431553ed] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][3]: query[(_all:linux _all:内核 _all:驱动 _all:机械工业 _all:出版社 _all:android)~4],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux", "\u5185\u6838", "\u9a71\u52a8", "\u673a\u68b0\u5de5\u4e1a", "\u51fa\u7248\u793e", "android"], "minimum_match": 4}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:38,626][DEBUG][action.search.type       ] [king kong] [linkapes][0], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@469fee47] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][0]: query[(_all:linux _all:内核 _all:驱动 _all:机械工业 _all:出版社 _all:android)~4],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux", "\u5185\u6838", "\u9a71\u52a8", "\u673a\u68b0\u5de5\u4e1a", "\u51fa\u7248\u793e", "android"], "minimum_match": 4}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:38,627][DEBUG][action.search.type       ] [king kong] [linkapes][1], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@469fee47] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][1]: query[(_all:linux _all:内核 _all:驱动 _all:机械工业 _all:出版社 _all:android)~4],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux", "\u5185\u6838", "\u9a71\u52a8", "\u673a\u68b0\u5de5\u4e1a", "\u51fa\u7248\u793e", "android"], "minimum_match": 4}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:38,626][DEBUG][action.search.type       ] [king kong] [linkapes][2], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@469fee47] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][2]: query[(_all:linux _all:内核 _all:驱动 _all:机械工业 _all:出版社 _all:android)~4],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux", "\u5185\u6838", "\u9a71\u52a8", "\u673a\u68b0\u5de5\u4e1a", "\u51fa\u7248\u793e", "android"], "minimum_match": 4}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:38,627][DEBUG][action.search.type       ] [king kong] [linkapes][3], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@469fee47] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][3]: query[(_all:linux _all:内核 _all:驱动 _all:机械工业 _all:出版社 _all:android)~4],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux", "\u5185\u6838", "\u9a71\u52a8", "\u673a\u68b0\u5de5\u4e1a", "\u51fa\u7248\u793e", "android"], "minimum_match": 4}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:38,628][DEBUG][action.search.type       ] [king kong] [linkapes][4], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@469fee47]
+org.elasticsearch.search.SearchParseException: [linkapes][4]: query[(_all:linux _all:内核 _all:驱动 _all:机械工业 _all:出版社 _all:android)~4],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux", "\u5185\u6838", "\u9a71\u52a8", "\u673a\u68b0\u5de5\u4e1a", "\u51fa\u7248\u793e", "android"], "minimum_match": 4}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:38,628][DEBUG][action.search.type       ] [king kong] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [linkapes][4]: query[(_all:linux _all:内核 _all:驱动 _all:机械工业 _all:出版社 _all:android)~4],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux", "\u5185\u6838", "\u9a71\u52a8", "\u673a\u68b0\u5de5\u4e1a", "\u51fa\u7248\u793e", "android"], "minimum_match": 4}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:44,752][DEBUG][action.search.type       ] [king kong] [linkapes][1], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@40d0bea0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][1]: query[(_all:linux)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux"], "minimum_match": 1}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:44,753][DEBUG][action.search.type       ] [king kong] [linkapes][3], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@40d0bea0]
+org.elasticsearch.search.SearchParseException: [linkapes][3]: query[(_all:linux)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux"], "minimum_match": 1}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:44,754][DEBUG][action.search.type       ] [king kong] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [linkapes][3]: query[(_all:linux)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux"], "minimum_match": 1}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:44,753][DEBUG][action.search.type       ] [king kong] [linkapes][2], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@40d0bea0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][2]: query[(_all:linux)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux"], "minimum_match": 1}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:44,752][DEBUG][action.search.type       ] [king kong] [linkapes][4], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@40d0bea0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][4]: query[(_all:linux)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux"], "minimum_match": 1}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:44,752][DEBUG][action.search.type       ] [king kong] [linkapes][0], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@40d0bea0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][0]: query[(_all:linux)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux"], "minimum_match": 1}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:45,974][DEBUG][action.search.type       ] [king kong] [linkapes][1], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@69682a19] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][1]: query[(_all:linux)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux"], "minimum_match": 1}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:45,974][DEBUG][action.search.type       ] [king kong] [linkapes][2], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@69682a19] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][2]: query[(_all:linux)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux"], "minimum_match": 1}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:45,975][DEBUG][action.search.type       ] [king kong] [linkapes][0], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@69682a19] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][0]: query[(_all:linux)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux"], "minimum_match": 1}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:45,974][DEBUG][action.search.type       ] [king kong] [linkapes][3], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@69682a19] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][3]: query[(_all:linux)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux"], "minimum_match": 1}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:45,975][DEBUG][action.search.type       ] [king kong] [linkapes][4], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@69682a19]
+org.elasticsearch.search.SearchParseException: [linkapes][4]: query[(_all:linux)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux"], "minimum_match": 1}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:21:45,979][DEBUG][action.search.type       ] [king kong] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [linkapes][4]: query[(_all:linux)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"_all": ["linux"], "minimum_match": 1}, "filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}}, "fields": ["name", "press", "author", "keywords"]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.ElasticsearchParseException: Expected field name but got START_OBJECT "filter"
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:736)
+	... 9 more
+[2015-08-22 17:25:30,069][DEBUG][action.search.type       ] [king kong] [linkapes][0], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2549290] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"fields": ["name", "press", "author", "keywords"], "query": {"filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}, "terms": {"_all": ["linux"], "minimum_match": 1}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [linkapes] No query registered for [filter]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-08-22 17:25:30,069][DEBUG][action.search.type       ] [king kong] [linkapes][2], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2549290]
+org.elasticsearch.search.SearchParseException: [linkapes][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"fields": ["name", "press", "author", "keywords"], "query": {"filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}, "terms": {"_all": ["linux"], "minimum_match": 1}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [linkapes] No query registered for [filter]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-08-22 17:25:30,069][DEBUG][action.search.type       ] [king kong] [linkapes][1], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2549290] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"fields": ["name", "press", "author", "keywords"], "query": {"filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}, "terms": {"_all": ["linux"], "minimum_match": 1}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [linkapes] No query registered for [filter]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-08-22 17:25:30,069][DEBUG][action.search.type       ] [king kong] [linkapes][3], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2549290] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"fields": ["name", "press", "author", "keywords"], "query": {"filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}, "terms": {"_all": ["linux"], "minimum_match": 1}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [linkapes] No query registered for [filter]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-08-22 17:25:30,069][DEBUG][action.search.type       ] [king kong] [linkapes][4], node[8ci3GkjdQQyXla7DwprKkw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2549290] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"fields": ["name", "press", "author", "keywords"], "query": {"filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}, "terms": {"_all": ["linux"], "minimum_match": 1}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [linkapes] No query registered for [filter]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-08-22 17:25:30,071][DEBUG][action.search.type       ] [king kong] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [linkapes][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"fields": ["name", "press", "author", "keywords"], "query": {"filter": {"bool": {"must": {"term": {"press": "\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e"}}}}, "terms": {"_all": ["linux"], "minimum_match": 1}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [linkapes] No query registered for [filter]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-08-22 17:36:16,589][INFO ][node                     ] [king kong] stopping ...
+[2015-08-22 17:36:16,632][INFO ][node                     ] [king kong] stopped
+[2015-08-22 17:36:16,632][INFO ][node                     ] [king kong] closing ...
+[2015-08-22 17:36:16,650][INFO ][node                     ] [king kong] closed
+[2015-08-22 18:29:15,641][INFO ][node                     ] [king kong] version[1.6.2], pid[31073], build[6220391/2015-07-29T09:24:47Z]
+[2015-08-22 18:29:15,641][INFO ][node                     ] [king kong] initializing ...
+[2015-08-22 18:29:15,755][INFO ][plugins                  ] [king kong] loaded [analysis-pinyin, analysis-stconvert, analysis-ik, analysis-mmseg], sites [head]
+[2015-08-22 18:29:15,801][INFO ][env                      ] [king kong] using [1] data paths, mounts [[/home (/dev/sda5)]], net usable_space [143.1gb], net total_space [183.2gb], types [ext4]
+[2015-08-22 18:29:18,924][INFO ][node                     ] [king kong] initialized
+[2015-08-22 18:29:18,925][INFO ][node                     ] [king kong] starting ...
+[2015-08-22 18:29:19,052][INFO ][transport                ] [king kong] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.101:9300]}
+[2015-08-22 18:29:19,142][INFO ][discovery                ] [king kong] link-apes/RRcilKxFSuG_I3GAI-RSKw
+[2015-08-22 18:29:22,935][INFO ][cluster.service          ] [king kong] new_master [king kong][RRcilKxFSuG_I3GAI-RSKw][uu][inet[/192.168.1.101:9300]], reason: zen-disco-join (elected_as_master)
+[2015-08-22 18:29:22,978][INFO ][http                     ] [king kong] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.101:9200]}
+[2015-08-22 18:29:22,978][INFO ][node                     ] [king kong] started
+[2015-08-22 18:29:23,023][INFO ][gateway                  ] [king kong] recovered [1] indices into cluster_state
+[2015-08-22 18:29:23,659][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/mydict.dic
+[2015-08-22 18:29:23,660][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/single_word_low_freq.dic
+[2015-08-22 18:29:23,666][INFO ][ik-analyzer              ] [Dict Loading]ik/custom/ext_stopword.dic
+[2015-08-22 18:29:23,708][INFO ][mmseg-analyzer           ] chars loaded time=37ms, line=12638, on file=chars.dic
+[2015-08-22 18:29:23,711][INFO ][mmseg-analyzer           ] words loaded time=1ms, line=4, on file=words-my.dic
+[2015-08-22 18:29:24,072][INFO ][mmseg-analyzer           ] words loaded time=361ms, line=157202, on file=words.dic
+[2015-08-22 18:29:24,072][INFO ][mmseg-analyzer           ] load all dic use time=401ms
+[2015-08-22 18:29:24,073][INFO ][mmseg-analyzer           ] unit loaded time=1ms, line=22, on file=units.dic
+[2015-08-22 19:31:53,406][INFO ][cluster.metadata         ] [king kong] [linkapes] update_mapping [books] (dynamic)
+[2015-08-22 20:47:14,691][DEBUG][action.search.type       ] [king kong] [linkapes][4], node[RRcilKxFSuG_I3GAI-RSKw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@18648b34] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"aggr": {"sheng_aggr": {"terms": {"field": "press"}}}, "fields": ["name", "press", "author", "keywords"], "query": {"terms": {"_all": ["\u9a71\u52a8"], "minimum_match": 1}}, "filter": {"and": [{"term": {"press": "\u4eba\u6c11"}}, {"term": {"brief": "linux"}}]}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][4]: from[-1],size[-1]: Parse Failure [No parser for element [aggr]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:729)
+	... 9 more
+[2015-08-22 20:47:14,695][DEBUG][action.search.type       ] [king kong] [linkapes][2], node[RRcilKxFSuG_I3GAI-RSKw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@18648b34] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"aggr": {"sheng_aggr": {"terms": {"field": "press"}}}, "fields": ["name", "press", "author", "keywords"], "query": {"terms": {"_all": ["\u9a71\u52a8"], "minimum_match": 1}}, "filter": {"and": [{"term": {"press": "\u4eba\u6c11"}}, {"term": {"brief": "linux"}}]}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][2]: from[-1],size[-1]: Parse Failure [No parser for element [aggr]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:729)
+	... 9 more
+[2015-08-22 20:47:14,694][DEBUG][action.search.type       ] [king kong] [linkapes][1], node[RRcilKxFSuG_I3GAI-RSKw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@18648b34] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"aggr": {"sheng_aggr": {"terms": {"field": "press"}}}, "fields": ["name", "press", "author", "keywords"], "query": {"terms": {"_all": ["\u9a71\u52a8"], "minimum_match": 1}}, "filter": {"and": [{"term": {"press": "\u4eba\u6c11"}}, {"term": {"brief": "linux"}}]}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][1]: from[-1],size[-1]: Parse Failure [No parser for element [aggr]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:729)
+	... 9 more
+[2015-08-22 20:47:14,694][DEBUG][action.search.type       ] [king kong] [linkapes][3], node[RRcilKxFSuG_I3GAI-RSKw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@18648b34] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"aggr": {"sheng_aggr": {"terms": {"field": "press"}}}, "fields": ["name", "press", "author", "keywords"], "query": {"terms": {"_all": ["\u9a71\u52a8"], "minimum_match": 1}}, "filter": {"and": [{"term": {"press": "\u4eba\u6c11"}}, {"term": {"brief": "linux"}}]}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][3]: from[-1],size[-1]: Parse Failure [No parser for element [aggr]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:729)
+	... 9 more
+[2015-08-22 20:47:14,694][DEBUG][action.search.type       ] [king kong] [linkapes][0], node[RRcilKxFSuG_I3GAI-RSKw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@18648b34]
+org.elasticsearch.search.SearchParseException: [linkapes][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"aggr": {"sheng_aggr": {"terms": {"field": "press"}}}, "fields": ["name", "press", "author", "keywords"], "query": {"terms": {"_all": ["\u9a71\u52a8"], "minimum_match": 1}}, "filter": {"and": [{"term": {"press": "\u4eba\u6c11"}}, {"term": {"brief": "linux"}}]}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][0]: from[-1],size[-1]: Parse Failure [No parser for element [aggr]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:729)
+	... 9 more
+[2015-08-22 20:47:14,698][DEBUG][action.search.type       ] [king kong] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [linkapes][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"aggr": {"sheng_aggr": {"terms": {"field": "press"}}}, "fields": ["name", "press", "author", "keywords"], "query": {"terms": {"_all": ["\u9a71\u52a8"], "minimum_match": 1}}, "filter": {"and": [{"term": {"press": "\u4eba\u6c11"}}, {"term": {"brief": "linux"}}]}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][0]: from[-1],size[-1]: Parse Failure [No parser for element [aggr]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:729)
+	... 9 more
+[2015-08-22 20:47:32,177][DEBUG][action.search.type       ] [king kong] [linkapes][2], node[RRcilKxFSuG_I3GAI-RSKw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6222db31] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][2]: query[(_all:驱动)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"fields": ["name", "press", "author", "keywords"], "query": {"terms": {"minimum_match": 1, "_all": ["\u9a71\u52a8"]}}, "filter": {"and": [{"term": {"press": "\u4eba\u6c11"}}, {"term": {"brief": "linux"}}]}, "aggr": {"sheng_aggr": {"terms": {"field": "press"}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][2]: query[(_all:驱动)~1],from[-1],size[-1]: Parse Failure [No parser for element [aggr]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:729)
+	... 9 more
+[2015-08-22 20:47:32,178][DEBUG][action.search.type       ] [king kong] [linkapes][1], node[RRcilKxFSuG_I3GAI-RSKw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6222db31] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][1]: query[(_all:驱动)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"fields": ["name", "press", "author", "keywords"], "query": {"terms": {"minimum_match": 1, "_all": ["\u9a71\u52a8"]}}, "filter": {"and": [{"term": {"press": "\u4eba\u6c11"}}, {"term": {"brief": "linux"}}]}, "aggr": {"sheng_aggr": {"terms": {"field": "press"}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][1]: query[(_all:驱动)~1],from[-1],size[-1]: Parse Failure [No parser for element [aggr]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:729)
+	... 9 more
+[2015-08-22 20:47:32,178][DEBUG][action.search.type       ] [king kong] [linkapes][3], node[RRcilKxFSuG_I3GAI-RSKw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6222db31] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][3]: query[(_all:驱动)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"fields": ["name", "press", "author", "keywords"], "query": {"terms": {"minimum_match": 1, "_all": ["\u9a71\u52a8"]}}, "filter": {"and": [{"term": {"press": "\u4eba\u6c11"}}, {"term": {"brief": "linux"}}]}, "aggr": {"sheng_aggr": {"terms": {"field": "press"}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][3]: query[(_all:驱动)~1],from[-1],size[-1]: Parse Failure [No parser for element [aggr]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:729)
+	... 9 more
+[2015-08-22 20:47:32,180][DEBUG][action.search.type       ] [king kong] [linkapes][0], node[RRcilKxFSuG_I3GAI-RSKw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6222db31]
+org.elasticsearch.search.SearchParseException: [linkapes][0]: query[(_all:驱动)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"fields": ["name", "press", "author", "keywords"], "query": {"terms": {"minimum_match": 1, "_all": ["\u9a71\u52a8"]}}, "filter": {"and": [{"term": {"press": "\u4eba\u6c11"}}, {"term": {"brief": "linux"}}]}, "aggr": {"sheng_aggr": {"terms": {"field": "press"}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][0]: query[(_all:驱动)~1],from[-1],size[-1]: Parse Failure [No parser for element [aggr]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:729)
+	... 9 more
+[2015-08-22 20:47:32,182][DEBUG][action.search.type       ] [king kong] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [linkapes][0]: query[(_all:驱动)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"fields": ["name", "press", "author", "keywords"], "query": {"terms": {"minimum_match": 1, "_all": ["\u9a71\u52a8"]}}, "filter": {"and": [{"term": {"press": "\u4eba\u6c11"}}, {"term": {"brief": "linux"}}]}, "aggr": {"sheng_aggr": {"terms": {"field": "press"}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][0]: query[(_all:驱动)~1],from[-1],size[-1]: Parse Failure [No parser for element [aggr]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:729)
+	... 9 more
+[2015-08-22 20:47:32,179][DEBUG][action.search.type       ] [king kong] [linkapes][4], node[RRcilKxFSuG_I3GAI-RSKw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6222db31] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][4]: query[(_all:驱动)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"fields": ["name", "press", "author", "keywords"], "query": {"terms": {"minimum_match": 1, "_all": ["\u9a71\u52a8"]}}, "filter": {"and": [{"term": {"press": "\u4eba\u6c11"}}, {"term": {"brief": "linux"}}]}, "aggr": {"sheng_aggr": {"terms": {"field": "press"}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][4]: query[(_all:驱动)~1],from[-1],size[-1]: Parse Failure [No parser for element [aggr]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:729)
+	... 9 more
+[2015-08-22 21:00:06,885][INFO ][cluster.metadata         ] [king kong] [linkapes] deleting index
+[2015-08-22 21:00:07,007][INFO ][cluster.metadata         ] [king kong] [linkapes] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2015-08-22 21:00:07,145][INFO ][cluster.metadata         ] [king kong] [linkapes] create_mapping [books]
+[2015-08-22 21:00:16,413][INFO ][cluster.metadata         ] [king kong] [linkapes] update_mapping [books] (dynamic)
+[2015-08-22 21:01:41,903][DEBUG][action.search.type       ] [king kong] [linkapes][4], node[RRcilKxFSuG_I3GAI-RSKw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4fa1848a] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][4]: query[(_all:深入)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"minimum_match": 1, "_all": ["\u6df1\u5165"]}}, "fields": ["name", "press", "author", "keywords", "year"], "aggs": {"sheng_aggr": {"terms": {"field": ["year", "press_id"]}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][4]: query[(_all:深入)~1],from[-1],size[-1]: Parse Failure [Unknown key for a START_ARRAY in [sheng_aggr]: [field].]
+	at org.elasticsearch.search.aggregations.bucket.terms.TermsParametersParser.parseSpecial(TermsParametersParser.java:73)
+	at org.elasticsearch.search.aggregations.bucket.terms.AbstractTermsParametersParser.parse(AbstractTermsParametersParser.java:103)
+	at org.elasticsearch.search.aggregations.bucket.terms.TermsParser.parse(TermsParser.java:50)
+	at org.elasticsearch.search.aggregations.AggregatorParsers.parseAggregators(AggregatorParsers.java:148)
+	at org.elasticsearch.search.aggregations.AggregatorParsers.parseAggregators(AggregatorParsers.java:78)
+	at org.elasticsearch.search.aggregations.AggregationParseElement.parse(AggregationParseElement.java:60)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-08-22 21:01:41,905][DEBUG][action.search.type       ] [king kong] [linkapes][3], node[RRcilKxFSuG_I3GAI-RSKw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4fa1848a] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][3]: query[(_all:深入)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"minimum_match": 1, "_all": ["\u6df1\u5165"]}}, "fields": ["name", "press", "author", "keywords", "year"], "aggs": {"sheng_aggr": {"terms": {"field": ["year", "press_id"]}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][3]: query[(_all:深入)~1],from[-1],size[-1]: Parse Failure [Unknown key for a START_ARRAY in [sheng_aggr]: [field].]
+	at org.elasticsearch.search.aggregations.bucket.terms.TermsParametersParser.parseSpecial(TermsParametersParser.java:73)
+	at org.elasticsearch.search.aggregations.bucket.terms.AbstractTermsParametersParser.parse(AbstractTermsParametersParser.java:103)
+	at org.elasticsearch.search.aggregations.bucket.terms.TermsParser.parse(TermsParser.java:50)
+	at org.elasticsearch.search.aggregations.AggregatorParsers.parseAggregators(AggregatorParsers.java:148)
+	at org.elasticsearch.search.aggregations.AggregatorParsers.parseAggregators(AggregatorParsers.java:78)
+	at org.elasticsearch.search.aggregations.AggregationParseElement.parse(AggregationParseElement.java:60)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-08-22 21:01:41,905][DEBUG][action.search.type       ] [king kong] [linkapes][2], node[RRcilKxFSuG_I3GAI-RSKw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4fa1848a] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][2]: query[(_all:深入)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"minimum_match": 1, "_all": ["\u6df1\u5165"]}}, "fields": ["name", "press", "author", "keywords", "year"], "aggs": {"sheng_aggr": {"terms": {"field": ["year", "press_id"]}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][2]: query[(_all:深入)~1],from[-1],size[-1]: Parse Failure [Unknown key for a START_ARRAY in [sheng_aggr]: [field].]
+	at org.elasticsearch.search.aggregations.bucket.terms.TermsParametersParser.parseSpecial(TermsParametersParser.java:73)
+	at org.elasticsearch.search.aggregations.bucket.terms.AbstractTermsParametersParser.parse(AbstractTermsParametersParser.java:103)
+	at org.elasticsearch.search.aggregations.bucket.terms.TermsParser.parse(TermsParser.java:50)
+	at org.elasticsearch.search.aggregations.AggregatorParsers.parseAggregators(AggregatorParsers.java:148)
+	at org.elasticsearch.search.aggregations.AggregatorParsers.parseAggregators(AggregatorParsers.java:78)
+	at org.elasticsearch.search.aggregations.AggregationParseElement.parse(AggregationParseElement.java:60)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-08-22 21:01:41,904][DEBUG][action.search.type       ] [king kong] [linkapes][0], node[RRcilKxFSuG_I3GAI-RSKw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4fa1848a] lastShard [true]
+org.elasticsearch.search.SearchParseException: [linkapes][0]: query[(_all:深入)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"minimum_match": 1, "_all": ["\u6df1\u5165"]}}, "fields": ["name", "press", "author", "keywords", "year"], "aggs": {"sheng_aggr": {"terms": {"field": ["year", "press_id"]}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][0]: query[(_all:深入)~1],from[-1],size[-1]: Parse Failure [Unknown key for a START_ARRAY in [sheng_aggr]: [field].]
+	at org.elasticsearch.search.aggregations.bucket.terms.TermsParametersParser.parseSpecial(TermsParametersParser.java:73)
+	at org.elasticsearch.search.aggregations.bucket.terms.AbstractTermsParametersParser.parse(AbstractTermsParametersParser.java:103)
+	at org.elasticsearch.search.aggregations.bucket.terms.TermsParser.parse(TermsParser.java:50)
+	at org.elasticsearch.search.aggregations.AggregatorParsers.parseAggregators(AggregatorParsers.java:148)
+	at org.elasticsearch.search.aggregations.AggregatorParsers.parseAggregators(AggregatorParsers.java:78)
+	at org.elasticsearch.search.aggregations.AggregationParseElement.parse(AggregationParseElement.java:60)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-08-22 21:01:41,904][DEBUG][action.search.type       ] [king kong] [linkapes][1], node[RRcilKxFSuG_I3GAI-RSKw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4fa1848a]
+org.elasticsearch.search.SearchParseException: [linkapes][1]: query[(_all:深入)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"minimum_match": 1, "_all": ["\u6df1\u5165"]}}, "fields": ["name", "press", "author", "keywords", "year"], "aggs": {"sheng_aggr": {"terms": {"field": ["year", "press_id"]}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][1]: query[(_all:深入)~1],from[-1],size[-1]: Parse Failure [Unknown key for a START_ARRAY in [sheng_aggr]: [field].]
+	at org.elasticsearch.search.aggregations.bucket.terms.TermsParametersParser.parseSpecial(TermsParametersParser.java:73)
+	at org.elasticsearch.search.aggregations.bucket.terms.AbstractTermsParametersParser.parse(AbstractTermsParametersParser.java:103)
+	at org.elasticsearch.search.aggregations.bucket.terms.TermsParser.parse(TermsParser.java:50)
+	at org.elasticsearch.search.aggregations.AggregatorParsers.parseAggregators(AggregatorParsers.java:148)
+	at org.elasticsearch.search.aggregations.AggregatorParsers.parseAggregators(AggregatorParsers.java:78)
+	at org.elasticsearch.search.aggregations.AggregationParseElement.parse(AggregationParseElement.java:60)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-08-22 21:01:41,909][DEBUG][action.search.type       ] [king kong] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [linkapes][1]: query[(_all:深入)~1],from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"terms": {"minimum_match": 1, "_all": ["\u6df1\u5165"]}}, "fields": ["name", "press", "author", "keywords", "year"], "aggs": {"sheng_aggr": {"terms": {"field": ["year", "press_id"]}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [linkapes][1]: query[(_all:深入)~1],from[-1],size[-1]: Parse Failure [Unknown key for a START_ARRAY in [sheng_aggr]: [field].]
+	at org.elasticsearch.search.aggregations.bucket.terms.TermsParametersParser.parseSpecial(TermsParametersParser.java:73)
+	at org.elasticsearch.search.aggregations.bucket.terms.AbstractTermsParametersParser.parse(AbstractTermsParametersParser.java:103)
+	at org.elasticsearch.search.aggregations.bucket.terms.TermsParser.parse(TermsParser.java:50)
+	at org.elasticsearch.search.aggregations.AggregatorParsers.parseAggregators(AggregatorParsers.java:148)
+	at org.elasticsearch.search.aggregations.AggregatorParsers.parseAggregators(AggregatorParsers.java:78)
+	at org.elasticsearch.search.aggregations.AggregationParseElement.parse(AggregationParseElement.java:60)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
